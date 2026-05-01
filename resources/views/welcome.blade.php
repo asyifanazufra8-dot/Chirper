@@ -33,6 +33,9 @@
                     </div>
                 </div>
             </div>
+            @foreach ($chirps as $chirp)
+            <p>{{ $chirp }}</p>
+            @endforeach
         </div>
     </main>
 
